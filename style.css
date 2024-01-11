@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("pexels-matej-819012.jpg");
+    background-size: cover;
+    background-position: center no-repeat;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 28px 100px;
+}
+
+h2 {
+    user-select: none;
+    color: floralwhite;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: floralwhite;
+    padding: 8px 16px;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a:active {
+    color: deepskyblue;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: floralwhite;
+}
+
+.main-content h1{
+    font-size: 3rem;
+    max-width: 600px;
+}
+
+.main-content p {
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.main-content button {
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    font-size: 24px;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    background: midnightblue;
+    color: aliceblue;
+    transition: .3s;
+}
+
+.main-content button:hover {
+    color: midnightblue;
+    background: aliceblue;
+}
